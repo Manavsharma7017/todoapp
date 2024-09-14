@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 const { boolean } = require("zod");
-mongoose.connect('mongodb+srv://manav:Manav%400603@cluster0.svddq7z.mongodb.net/todo');
+mongoose.connect('');//your mongodb url
 const todoschema = new mongoose.Schema({
     tittle:String,
     dexcription:String,
